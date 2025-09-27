@@ -11,8 +11,7 @@ Even though the dataset is simulated, the architecture is production-ready and c
 - **Storage**: Amazon S3 (Raw Zone & Curated Zone)  
 - **ETL / Metadata**: AWS Glue (ETL jobs, Crawlers, Data Catalog)  
 - **Analytics**: Amazon Athena (serverless SQL queries)  
-- **Visualization**: Amazon QuickSight (or Tableau / Power BI) 
-
+- **Visualization**
 
 ## Project Structure
 
