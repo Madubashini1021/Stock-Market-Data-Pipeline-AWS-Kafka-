@@ -52,7 +52,10 @@ stock-market-analytics-aws/
 
 
 Architecture
+
 ![Architecture](./Stock%20market%20project%20architecture.png)
+
+
 Flow:
 
 Data Source
