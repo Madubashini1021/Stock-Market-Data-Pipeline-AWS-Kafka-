@@ -1,4 +1,4 @@
-# Stock-Market-Data-Pipeline-AWS-Kafka-
+# Stock-Market-Data-Pipeline-AWS-Kafka
 Real-time stock market analytics pipeline using AWS
 
 This project demonstrates a real-time stock market analytics pipeline using Apache Kafka, AWS Glue, Amazon S3, and Amazon Athena, with dashboard.
@@ -36,7 +36,7 @@ stock-market-analytics-aws/
 
 
 Architecture
-![Architecture](./docs/architecture.png)
+![Architecture](./Stock market project architecture.png)
 Flow:
 
 Data Source
