@@ -22,9 +22,7 @@ stock-market-analytics-aws/
 
 │── architecture.png          # Architecture diagram
 
-│── data/
-
-│   └── stocks.csv           # Sample dataset
+│──  stocks.csv           # Sample dataset
 
 │── kafka/
 
