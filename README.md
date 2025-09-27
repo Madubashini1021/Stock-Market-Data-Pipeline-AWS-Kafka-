@@ -58,29 +58,34 @@ Architecture
 
 Flow:
 
--**Data Source** : Stock CSV dataset (simulated with a Python script).
+- **Data Source**
+  
+-  Stock CSV dataset (simulated with a Python script).
 
--**Data Streaming** : Producer (Python app) pushes stock records into Kafka (EC2/Docker).
+- **Data Streaming** 
 
-Consumer (Python app) reads from Kafka and writes records into Amazon S3 (Raw Zone).
+- Producer (Python app) pushes stock records into Kafka (EC2/Docker).
 
--**ETL (Extract, Transform, Load)** : AWS Glue ETL job (glue_elt_stock.py) cleans, transforms, and optimizes the raw data.
+- Consumer (Python app) reads from Kafka and writes records into Amazon S3 (Raw Zone).
 
-Writes curated data to Amazon S3 (Curated Zone) in Parquet format, partitioned by date/ticker.
+- **ETL (Extract, Transform, Load)** 
+-  AWS Glue ETL job (glue_elt_stock.py) cleans, transforms, and optimizes the raw data.
 
--**Metadata Management**
+- Writes curated data to Amazon S3 (Curated Zone) in Parquet format, partitioned by date/ticker.
 
-AWS Glue Crawler discovers schema from raw/curated data.
+- **Metadata Management**
 
-Glue Data Catalog stores table definitions for Athena.
+- AWS Glue Crawler discovers schema from raw/curated data.
 
--**Analytics**
+- Glue Data Catalog stores table definitions for Athena.
 
-Amazon Athena queries curated data directly from S3 using SQL.
+- **Analytics**
 
--**Visualization**
+- Amazon Athena queries curated data directly from S3 using SQL.
 
-Dashboards created using Amazon QuickSight (or external BI tools such as Tableau/Power BI).
+- **Visualization**
+
+- Dashboards created using Amazon QuickSight (or external BI tools such as Tableau/Power BI).
 
 
 
