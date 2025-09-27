@@ -82,7 +82,8 @@ Flow:
 
 - **Visualization**
 
-- Dashboards created using Amazon QuickSight (or external BI tools such as Tableau/Power BI).
+- Dashboard
+  
 
 
 
