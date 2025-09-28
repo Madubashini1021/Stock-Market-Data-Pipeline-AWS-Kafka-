@@ -15,38 +15,6 @@ Even though the dataset is simulated, the architecture is production-ready and c
 
 ## Project Structure
 
-stock-market-analytics-aws/
-
-│── README.md                # Project documentation
-
-│── architecture.png          # Architecture diagram
-
-│──  stocks.csv           # Sample dataset
-
-│── kafka/
-
-│   ├── producer.py          # Kafka producer script
-
-│   └── consumer.py          # Kafka consumer script
-
-│── glue/
-
-│   └── glue_elt_stock.py    # Glue ETL script (clean/transform/load)
-
-│── athena/
-
-│   ├── top_gainers.sql      # Athena SQL for top gainers
-
-│   └── volatility.sql       # Athena SQL for volatility
-
-│── notebooks/               # Jupyter notebooks for analysis
-
-│── docs/
-
-│   ├── athena_query.png     # Athena query example
-
-│   └── dashboard.png        # Dashboard screenshot
-
 
 Architecture
 
